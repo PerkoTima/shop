@@ -11,6 +11,13 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+li{
+	list-style-type: none;
+}
+
+
+
+
 p{
 	margin:0;
 }
@@ -73,7 +80,6 @@ header{
     transition: all 0.3s ease-in-out;
 }
 .menu li{
-	list-style-type: none;
 	overflow:hidden;
 	display: inline-block;
 	padding: 10px 0; 
@@ -90,12 +96,17 @@ header{
 	background-color: #EF5F21;
 	color:#fff;
 }
-
+.menu-active{
+	display: none;
+}
 .search{
 	position: fixed;
 	top: 50px;
 	right: 250px;
 	height: 40px;
+}
+.menu-icon{
+	display: none;
 }
 
 
@@ -200,11 +211,6 @@ footer a.link3:hover{
 }
 
 
-
-
-
-
-
 @media screen and (max-width: 1100px){
 	.nav ul{
 		width: 83%;
@@ -215,12 +221,58 @@ footer a.link3:hover{
 		top: 10px;	
 	}
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
+	.container{
+		width: 90%;
 	}
+}
+
+
+@media screen and (max-width: 900px){
 	.header-right a{
 		margin: 0 10px;
 		position: relative;
 		top: 10px;
+	}
+}
+@media screen and (max-width: 870px){
+	.container{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 780px){
+	.menu{
+		display: none;
+	}
+	.menu-icon{
+		display: inline-block;
+	}
+	.menu-active{
+		display: none;
+	}
+	.menu-active-on{
+		display: block;
+		position: fixed;
+		width: 100%;
+		background-color:#000;
+		color: #fff;
+		top: 50px;
+	}
+	.menu-active-on li{
+		text-align: center;
+		padding:20px 0;
+		text-transform: capitalize;
+	}
+	.menu-active-on a:hover{
+		color:#EF5F21;
+	}
+	.close{
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+	.close i{
+		color: #EF5F21;
 	}
 }
 @media screen and (max-width: 768px){
@@ -228,19 +280,21 @@ footer a.link3:hover{
 		height: 35px;
 	}
 	.header-right a{
-		margin: 0 10px;
 		font-size: 1em;
 		position: relative;
-		top: 9px;
+		top: 11px;
 		margin:0px 5px;
 	}
 	.header-right a:last-child{
 		width: 100%;
 		text-align: center;
 	}
-
 	.nav ul{
 		width: 83%;
 	}
 }
-	
+@media screen and (max-width: 330px){
+	.header-right a{
+		margin: 0;
+	}
+}

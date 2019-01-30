@@ -6,53 +6,47 @@
   margin-bottom: 1em;
 }
 .account-top div{
-   padding:0.5em 0;
+  padding:0.5em 0;
 }
 .account-top input[type="text"],
 .account-top textarea,.account-top input[type="password"]{
-   padding:1em;
-   width:100%;
-   background:none;
-   border: 1px solid #A09F9F; 
-   outline:none;
-   
-   font-size:1em; 
+  padding:1em;
+  width:100%;
+  background:none;
+  border: 1px solid #A09F9F; 
+  outline:none;
+  font-size:1em; 
 }
-
 .account-top textarea{
-   resize:none;
-   height:60px;      
+  resize:none;
+  height:60px;      
 }
 .account-top input[type="submit"]{
-   outline:none;
-   padding:7px 20px;
-   color:#FFF;
-   cursor:pointer;
-   background:#000;
-   border:none;
-   width:30%;
-   margin-top:1em;
-   transition: 0.5s all;
-   -webkit-transition: 0.5s all;
-   -o-transition: 0.5s all;
-   -moz-transition: 0.5s all;
-   -ms-transition: 0.5s all;  
-   font-size: 1.2em;
-   margin-left: 50%;
-   transform: translate(-50%);
+  outline:none;
+  padding:7px 20px;
+  color:#FFF;
+  cursor:pointer;
+  background:#000;
+  border:none;
+  width:30%;
+  margin-top:1em;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;  
+  font-size: 1.2em;
+  margin-left: 50%;
+  transform: translate(-50%);
 
 }
 .account-top input[type="submit"]:hover{
-   background:#EF5F21;
+  background:#EF5F21;
 }
-
 .account{
   padding: 4em 0;
   width: 30%;
   margin: 0 auto;
-}
-.account p{
-  display: block;
 }
 .account a{
   text-decoration: none;

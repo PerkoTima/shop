@@ -1,0 +1,44 @@
+.register{
+	margin: 0 auto;
+	padding:2em 0;
+}
+.register h1{
+	font-size: 3em;
+	color: #000;
+	text-align: center;
+	font-weight: 300;
+ 	margin-bottom: 0.5em;
+}
+form input[type="text"], form input[type="password"] {
+	width: 100%;
+	padding: 1em;
+	margin: 1em 0;
+	background: none;
+	outline:none;
+	border: 1px solid #A09F9F;
+	-webkit-appearance: none;
+}
+form input[type="submit"] {
+	background: #000;
+	padding: 0.4em 1em;
+	color: #fff;
+	font-size:1.2em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	display: block;
+	border:none;
+	outline:none;
+	transform: translate(-50%);
+	margin-left: 50%;
+	margin-top: 1em;
+	cursor: pointer;
+}
+.register input[type="submit"]:hover{
+	background:#EF5F21;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+}
