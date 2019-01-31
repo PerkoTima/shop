@@ -13,7 +13,7 @@
 	<!-- Header -->
 	<header>	
 		<div class="container">
-			<a href="#" class="logo"><img src="img/logo_black-space.gif" alt="" height="30px"></a>
+			<a href="home.html" class="logo"><img src="img/logo_black-space.gif" alt="" height="30px"></a>
 			<ul class="menu">
 				<li><a href="#">главная</a></li>
 				<li><a href="#">мужчинам</a></li>
@@ -22,11 +22,11 @@
 				<li><a href="#">контакты</a></li>
 			</ul>			
 			<div class="header-right">
-
+				<a href="#" class="menu-icon" id="menu-icon" onclick="menu()"><i class="flaticon-menu"></i></a>
 				<a href="" title="Поиск" onclick="search()"><i class="flaticon-search"></i></a>
-				<a href="#" title="Вход"><i class="flaticon-logout"></i></a>
-				<a href="#" title="Корзина"><i class="flaticon-shopping-cart"></i></a>
-			</div>		
+				<a href="login.html" title="Вход"><i class="flaticon-logout"></i></a>
+				<a href="shoping-cart.html" title="Корзина"><i class="flaticon-shopping-cart"></i></a>
+			</div>
 			<!--<div class="search">
 				<form>
 					<input type="search" placeholder="Поиск по сайту">
@@ -34,6 +34,14 @@
 				</form>
 			</div>-->
 		</div>
+		<ul class="menu-active " id="menu-active">
+				<li><a href="#">главная</a></li>
+				<li><a href="#">мужчинам</a></li>
+				<li><a href="#">женщинам</a></li>
+				<li><a href="#">обувь</a></li>
+				<li><a href="#">контакты</a></li>
+				<a href="#" class="close" onclick="menu()"><i class="flaticon-close"></i></a>
+		</ul>
 	</header>
 	<div class="header-mask"></div>
 	<!-- header end -->
@@ -90,5 +98,10 @@
 		</div>
 	</footer>
 	<!-- footer end -->
+	<script>
+	function menu(){
+		document.getElementById("menu-active").classList.toggle("menu-active-on");
+	}
+	</script>
 </body>
 </html>
