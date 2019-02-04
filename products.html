@@ -47,13 +47,101 @@
 	<!-- header end -->
 	<div class="container">
 		<div class="navigation">
+			<h3>Обувь</h3>
 			
+
+
+
+			<div class="categories">
+				<a href="#">туфли</a>
+				<a href="">ботинки</a>
+				<a href="">кроссовки</a>
+				<a href="">шлепанцы</a>
+				<a href="">мокасины</a>
+				<a href="">эспадрильи</a>
+			</div>
+
+			<div class="filter">
+				<div class="filterblock" onclick="price()">
+					<span>Цена</span>
+					<i class="flaticon-right-arrow" id="price-arrow"></i>
+				</div>
+				<div class="price" id="price-active">
+					<form action="">
+						от<input type="text">
+						до<input type="text">
+					</form>
+				</div>
+				<div class="filterblock" id="brand" onclick="brand()">
+					<span>Бренд</span>
+					<i class="flaticon-right-arrow" id="brand-arrow"></i>
+				</div>
+				<div class="brand " id="brand-active">
+					<form action="">
+						<input type="checkbox">
+						<label for="">Adidas</label><br>	
+						<input type="checkbox">
+						<label for="">Nike</label><br>
+						<input type="checkbox">
+						<label for="">Timberland</label><br>
+						<input type="checkbox">
+						<label for="">ADMIRAL</label><br>
+						<input type="checkbox">
+						<label for="">ALDO</label><br>
+						<input type="checkbox">
+						<label for="">Affex</label><br>
+					</form>
+				</div>
+				<div class="filterblock" onclick="size()">
+					<span>Размер</span>
+					<i class="flaticon-right-arrow" id="size-arrow"></i>
+				</div>
+				<div class="size " id="size-active">
+					<form action="">
+						<input type="checkbox">
+						<label for="">38</label><br>	
+						<input type="checkbox">
+						<label for="">39</label><br>
+						<input type="checkbox">
+						<label for="">40</label><br>
+						<input type="checkbox">
+						<label for="">41</label><br>
+						<input type="checkbox">
+						<label for="">42</label><br>
+						<input type="checkbox">
+						<label for="">43</label><br>
+						<input type="checkbox">
+						<label for="">44</label><br>
+						<input type="checkbox">
+						<label for="">45</label><br>
+						<input type="checkbox">
+						<label for="">46</label><br>
+						<input type="checkbox">
+						<label for="">47</label><br>
+					</form>
+				</div>
+				<div class="filterblock" onclick="color()">
+					<span>Цвет</span>
+					<i class="flaticon-right-arrow" id="color-arrow"></i>
+				</div>
+				<div class="color" id="color-active">
+					<ul>
+						<li><a href="#" style="background-color: grey"></a></li>
+						<li><a href="#" style="background-color: blue"></a></li>
+						<li><a href="#" style="background-color: red"></a></li>
+						<li><a href="#" style="background-color: green"></a></li>
+						<li><a href="#" style="background-color: purple"></a></li>
+						<li><a href="#" style="background-color: grey"></a></li>
+						<li><a href="#" style="background-color: red"></a></li>
+						<li><a href="#"></a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 
-		<div class="produtcs">
+		<div class="products">
 			<div class="nav">
-				<a href="home.html">Главная</a> 
-				<a href="products.html">Мужчинам</a> 
+				<a href="home.html">Главная</a>  
 				<p>Обувь</p>
 			</div>
 			<h2>Мужская обувь</h2>
@@ -64,18 +152,86 @@
 				<a href="#">цене</a>
 			</div>
 			<div class="pages">
-				<a href="#">1</a>
+				<a href="#" class="active">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">4</a>
+				<a href="#">5</a>
+				<a href="#">6</a>
+				<a href="#">...</a>
 			</div>
 			<div class="products-cont">
-				<div class="item">
+				<a class="item" href="#">
 					<img src="img/4717404-1.jpg" alt="">
-					<div class="brend">Ботинки TIMBERLAND</div>
-					<div class="price">600 р.</div>
-				</div>
+					<div class="brend"><p>Ботинки TIMBERLAND</p></div>
+					<div class="price"><p>600 р.</p></div>
+
+				</a>
+				<a class="item" href="#">
+					<img src="img/4717404-1.jpg" alt="">
+					<div class="brend"><p>Ботинки TIMBERLAND</p></div>
+					<div class="price"><p>600 р.</p></div>
+				</a>
+				<a class="item" href="#">
+					<img src="img/4717404-1.jpg" alt="">
+					<div class="brend"><p>Ботинки TIMBERLAND</p></div>
+					<div class="price"><p>600 р.</p></div>
+				</a>
+				<a class="item" href="#">
+					<img src="img/4717404-1.jpg" alt="">
+					<div class="brend"><p>Ботинки TIMBERLAND</p></div>
+					<div class="price"><p>600 р.</p></div>
+				</a>
+				<a class="item" href="#">
+					<img src="img/4717404-1.jpg" alt="">
+					<div class="brend"><p>Ботинки TIMBERLAND</p></div>
+					<div class="price"><p>600 р.</p></div>
+				</a>
+				<a class="item" href="#">
+					<img src="img/4717404-1.jpg" alt="">
+					<div class="brend"><p>Ботинки TIMBERLAND</p></div>
+					<div class="price"><p>600 р.</p></div>
+				</a>
+				<a class="item" href="#">
+					<img src="img/4717404-1.jpg" alt="">
+					<div class="brend"><p>Ботинки TIMBERLAND</p></div>
+					<div class="price"><p>600 р.</p></div>
+				</a>
+				<a class="item" href="#">
+					<img src="img/4717404-1.jpg" alt="">
+					<div class="brend"><p>Ботинки TIMBERLAND</p></div>
+					<div class="price"><p>600 р.</p></div>
+				</a>
+				<a class="item" href="#">
+					<img src="img/4717404-1.jpg" alt="">
+					<div class="brend"><p>Ботинки TIMBERLAND</p></div>
+					<div class="price"><p>600 р.</p></div>
+				</a>
+				<a class="item" href="#">
+					<img src="img/4717404-1.jpg" alt="">
+					<div class="brend"><p>Ботинки TIMBERLAND</p></div>
+					<div class="price"><p>600 р.</p></div>
+				</a>
+				<a class="item" href="#">
+					<img src="img/4717404-1.jpg" alt="">
+					<div class="brend"><p>Ботинки TIMBERLAND</p></div>
+					<div class="price"><p>600 р.</p></div>
+				</a>
+			</div>
+			<div class="pages">
+				<a href="#" class="active">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">4</a>
+				<a href="#">5</a>
+				<a href="#">6</a>
+				<a href="#">...</a>
 			</div>
 		</div>
+	
+	
 
-
+	
 	</div>
 	<!-- Footer -->
 	<footer>
@@ -115,7 +271,24 @@
 <script>
 	function menu(){
 		document.getElementById("menu-active").classList.toggle("menu-active-on");
-}
+}	
+	function price(){
+		document.getElementById("price-active").classList.toggle("price-active");
+		document.getElementById("price-arrow").classList.toggle("flaticon-down-arrow");
+	}
+
+	function brand(){
+		document.getElementById("brand-active").classList.toggle("brand-active");
+		document.getElementById("brand-arrow").classList.toggle("flaticon-down-arrow");
+	}
+	function size(){
+		document.getElementById("size-active").classList.toggle("size-active");
+		document.getElementById("size-arrow").classList.toggle("flaticon-down-arrow");
+	}
+	function color(){
+		document.getElementById("color-active").classList.toggle("color-active");
+		document.getElementById("color-arrow").classList.toggle("flaticon-down-arrow");	
+	}
 </script>
 </body>
 </html>

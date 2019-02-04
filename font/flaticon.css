@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 30/01/2019 10:09
+  	Creation date: 04/02/2019 10:41
   	*/
 
 @font-face {
@@ -35,3 +35,5 @@ margin-left: 20px;
 .flaticon-shopping-cart:before { content: "\f102"; }
 .flaticon-menu:before { content: "\f103"; }
 .flaticon-close:before { content: "\f104"; }
+.flaticon-right-arrow:before { content: "\f105"; }
+.flaticon-down-arrow:before { content: "\f106"; }
