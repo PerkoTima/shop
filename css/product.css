@@ -1,0 +1,175 @@
+
+
+.back{
+	width: 100%;
+	padding: 10px 0;
+}
+.back a{
+	color: grey;
+	text-decoration: none;
+}
+.back a:hover{
+	text-decoration: underline;
+}
+.img-cont{
+	width: 40%;
+}
+
+
+.img-cont .d-none{
+	display: none;
+}
+
+.img-cont .active{
+	width: 100%;
+	display: block;
+}
+
+.product-img-small{
+	display: flex;
+
+}
+.product-img-small a:hover{
+	border:1px solid #EF5F21;
+}
+.product-img-small img{
+	width: 100%;
+}
+
+.content-product{
+	display: flex;
+	justify-content: space-between;
+}
+
+.discr-cont h3{
+	margin: 10px 0;
+	font-size: 1.4em;
+}
+
+.discr-cont .price{
+	color: #EF5F21;
+	font-size: 1.8em;
+	margin:10px 0;
+}
+
+.discription{
+	margin: 20px 0;
+}
+
+.discription,.card-add-info p{
+	color: grey;
+}
+
+.discription,.card-add-info span{
+	color: #000;
+}
+.size label{
+	position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    color: #2d2d2d;
+    font-size: 13px;
+    line-height: 10px;
+    border: 1px solid #d5d5d5;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+    min-width: 29px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.size label.active{
+	color: #EF5F21;
+	border: 1px solid #EF5F21;
+}
+
+.cart-button{
+	border-radius: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    background: #EF5F21;
+    position: relative;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-top: 10px;
+}
+.brand-logo{
+	overflow: hidden;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	margin:30px 0;
+	padding: 10px 0;
+}
+
+.right-panel{
+	width: 20%;
+	margin-top: 40px;
+}
+.raiting-stars img{
+	width: 40%;
+}
+
+.card-info-cond{
+	font-size: 1.4em;
+}
+.options{
+	margin-top: 50px;
+}
+.card-options-category p{
+	color: grey;
+	margin: 5px 0;
+}
+.card-options-category h3{
+	font-weight: normal;
+}
+.card-options-category span{
+	color: #000;
+}
+.product-raiting a{
+	color:#000;
+}
+.similar-goods{
+	margin: 40px 0;
+	border-top:1px solid #e7e7e7;
+	border-bottom:1px solid #e7e7e7;
+	padding:20px 0;
+}
+.goods{
+	display: flex;
+	width: 100%;
+}
+
+.similar-goods h3{
+	margin-top: 20px;
+	font-weight: normal;
+	font-size: 1.4em;
+}
+
+.goods-item{
+	width: 20%;
+	text-decoration: none;
+}
+
+.goods-item img{
+	width: 100%;
+}
+
+.goods .price{
+	color: #000;
+}
+.goods p{
+	color: grey;
+}

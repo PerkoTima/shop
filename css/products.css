@@ -2,6 +2,9 @@
 	width: 20%;
 	margin: 20px 0;
 }
+.products h2{
+	margin-top: 1em;
+}
 .products{
 	width: 80%;
 	margin: 20px 0;
@@ -46,12 +49,12 @@
 	width: 100%;
 }
 .item{
-	width: 30%;
+	width: 25%;
 	text-decoration: none;
 	color: #000;
 }
 .item:hover{
-	border:1px solid gray;
+	border:1px solid #EF5F21;
 }
 .item img{
 	width: 100%;
@@ -165,7 +168,7 @@ h3{
 .color-active ul{
 	display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 60%;
     justify-content: space-around;
 }
 .color-active a{
@@ -175,9 +178,43 @@ h3{
     height: 100%;
 }
 
+@media screen and (max-width: 768px){
+	.products-cont .item{
+		width: 33%;
+	}
+}
 
+@media screen and (max-width: 600px){
+	.products-cont .item{
+		width: 50%;
+	}
+	.navigation{
+		width: 25%;
+	}
+	.products h2{
+		font-size: 1.5em;
+	}
+}
+@media screen and (max-width: 480px){
+	.navigation{
+		width: 30%;
+	}
+	.products h2{
+		font-size: 1.2em;
+	}
+}
 
-
-
-
+@media screen and (max-width: 415px){
+	.products-cont .item{
+		width: 100%;
+	}
+	.navigation{
+		width: 40%;
+	}
+}
+@media screen and (max-width: 415px){
+	.navigation{
+		width: 45%;
+	}
+}
 
